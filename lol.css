@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(10, 82, 58);
+    font-family: 'Poppins', sans-serif;
+  }
+
+  header {
+    background-color: #000000;
+  }
+
+  .row{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    gap: 10px;
+
+  }
+
+
+  .col{
+     height: fit-content;
+     background-color: rgb(144, 188, 168);
+     border: #faf6f6 solid 2px;
+     border-radius: 10px;
+     margin-top:5px;
+  }
+
+
+.card{
+  overflow:hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+    }
+  }
